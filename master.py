@@ -88,7 +88,7 @@ def partitioner(num_tasks):
 
 def main() -> None:
     global n
-    n = 1 #number of workers needed
+    n = 2 #number of workers needed
 
     to_clear = os.listdir("partitioned_data/")
     for file in to_clear:
